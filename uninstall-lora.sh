@@ -31,7 +31,7 @@ echo
 echo -e "${ORANGE}Uninstalling LoRaWAN...${NC}"
 rm -rf /opt/lora-box
 echo
-rm -rf /etc/systemd/system/lora-box.service
+#rm -rf /etc/systemd/system/lora-box.service
 rm -rf /etc/apt/sources.list.d/loraserver.list
 echo -e "${ORANGE}Uninstalling LoRa Gateway Bridge${NC}"
 apt remove -y lora-gateway-bridge
